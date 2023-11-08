@@ -1,0 +1,44 @@
+body {
+  height: 96%;
+  width: 96%;
+  background-color: orangered;
+}
+
+/* Estilos para la pantalla de la calculadora */
+#display {
+  width: 73%;
+  height: 50px;
+  font-size: 36px;
+  text-align: right;
+  background-color: #57f04c;
+  border: 1px solid #080808;
+  padding: 10px;
+}
+
+/* Estilos para los botones de la calculadora */
+.btn {
+  width: 25%;
+  height: 50px;
+  font-size: 18px;
+  background-color: #392bf7;
+  border: 1px solid #5a5858;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de igual */
+#equal {
+  width: 50%;
+  height: 50px;
+  font-size: 18px;
+  background-color: #f04288;
+  border: 1px solid #080707;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f2eeee;
+}
+
+#equal:hover {
+  background-color: brown;
+}
